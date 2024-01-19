@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BioController;
 use App\Http\Controllers\ContentController;
 use App\Http\Controllers\Admin\artikelAdminController;
-
+use App\Http\Controllers\Admin\DashboardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -47,6 +47,7 @@ Route::middleware(['guest'])->group(function(){
   Route::get('/', function(){
     return view('welcome');
   })->name('welcome');
+});
 
 
   Route::get('bio/{id}', [BioController::class, 'show'])->name('bio.show');

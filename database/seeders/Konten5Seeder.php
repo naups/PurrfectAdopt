@@ -15,57 +15,84 @@ class Konten5Seeder extends Seeder
     {
         DB::table('contents')->insert([
             'judul' => 'Artikel 1',
-            'nama' => 'Nama Artikel 1',
+            'penulis' => 'Penulis Artikel 1',
             'isi' => 'n',
-            'galery' => '',
+            'status' => false,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
         DB::table('contents')->insert([
             'judul' => 'Artikel 2',
-            'nama' => 'Nama Artikel 2',
+            'penulis' => 'Penulis Artikel 2',
             'isi' => 'm',
-            'galery' => '',
+            'status' => true,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
         DB::table('contents')->insert([
             'judul' => 'Artikel 3',
-            'nama' => 'Nama Artikel 3',
+            'penulis' => 'Penulis Artikel 3',
             'isi' => 'p',
-            'galery' => '',
+            'status' => false,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
         DB::table('contents')->insert([
             'judul' => 'Artikel 4',
-            'nama' => 'Nama Artikel 4',
+            'penulis' => 'Penulis Artikel 4',
             'isi' => 'q',
-            'galery' => '',
+            'status' => true,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
         DB::table('contents')->insert([
             'judul' => 'Artikel 5',
-            'nama' => 'Nama Artikel 5',
+            'penulis' => 'Penulis Artikel 5',
             'isi' => 'q',
-            'galery' => '',
+            'status' => false,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
         DB::table('contents')->insert([
             'judul' => 'Artikel 6',
-            'nama' => 'Nama Artikel 6',
+            'penulis' => 'Penulis Artikel 6',
             'isi' => 'q',
-            'galery' => '',
+            'status' => true,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
         DB::table('contents')->insert([
             'judul' => 'Artikel 7',
-            'nama' => 'Nama Artikel 7',
+            'penulis' => 'Penulis Artikel 7',
             'isi' => 'q',
-            'galery' => '',
+            'status' => true,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
         DB::table('contents')->insert([
             'judul' => 'Artikel 8',
-            'nama' => 'Nama Artikel 8',
+            'penulis' => 'Penulis Artikel 8',
             'isi' => 'q',
-            'galery' => '',
+            'status' => true,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
         DB::table('contents')->insert([
             'judul' => 'Artikel 9',
-            'nama' => 'Nama Artikel 9',
+            'penulis' => 'Penulis Artikel 9',
             'isi' => 'q',
-            'galery' => '',
+            'status' => true,
+            'galery' =>'img/artikel1.jpg',
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now(),
         ]);
     }
 }
